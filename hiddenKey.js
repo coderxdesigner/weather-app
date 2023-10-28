@@ -7,7 +7,7 @@ const btn = document.querySelector('.search button');
 
 async function getWeather (city) {
     const response = await fetch(apiUrl + `&appid=${apiKey}&q=${city}`)
-    let data = await response.json();
+    let data = await response.json();  
     console.log(data)
     if (data.cod === 200){
         document.querySelector('.city').innerHTML = data.name;
