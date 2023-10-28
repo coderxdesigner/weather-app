@@ -80,3 +80,8 @@ body {
     font-size: 28px;
     margin-top: -6px;
 }
+.notFound {
+    margin-top:40px;
+    font-weight:bold;
+    min-height:400px;
+}
